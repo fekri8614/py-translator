@@ -5,7 +5,6 @@ from googletrans import Translator, LANGUAGES
 root = Tk()
 root.geometry('700x350')
 root.resizable(0, 0)
-root.iconbitmap('src/icon.png')
 root['bg'] = 'skyblue'
 
 root.title('Language translator')
